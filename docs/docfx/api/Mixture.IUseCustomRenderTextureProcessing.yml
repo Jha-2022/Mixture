@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mixture.IUseCustomRenderTextureProcessing
+  commentId: T:Mixture.IUseCustomRenderTextureProcessing
+  id: IUseCustomRenderTextureProcessing
+  parent: Mixture
+  children:
+  - Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures
+  langs:
+  - csharp
+  - vb
+  name: IUseCustomRenderTextureProcessing
+  nameWithType: IUseCustomRenderTextureProcessing
+  fullName: Mixture.IUseCustomRenderTextureProcessing
+  type: Interface
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Runtime/Nodes/IUseCustomRenderTextureProcessing.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: IUseCustomRenderTextureProcessing
+    path: ../../Packages/com.alelievr.mixture/Runtime/Nodes/IUseCustomRenderTextureProcessing.cs
+    startLine: 5
+  assemblies:
+  - Mixture.Runtime
+  namespace: Mixture
+  syntax:
+    content: public interface IUseCustomRenderTextureProcessing
+    content.vb: Public Interface IUseCustomRenderTextureProcessing
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures
+  commentId: M:Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures
+  id: GetCustomRenderTextures
+  parent: Mixture.IUseCustomRenderTextureProcessing
+  langs:
+  - csharp
+  - vb
+  name: GetCustomRenderTextures()
+  nameWithType: IUseCustomRenderTextureProcessing.GetCustomRenderTextures()
+  fullName: Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Runtime/Nodes/IUseCustomRenderTextureProcessing.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: GetCustomRenderTextures
+    path: ../../Packages/com.alelievr.mixture/Runtime/Nodes/IUseCustomRenderTextureProcessing.cs
+    startLine: 7
+  assemblies:
+  - Mixture.Runtime
+  namespace: Mixture
+  syntax:
+    content: IEnumerable<CustomRenderTexture> GetCustomRenderTextures()
+    return:
+      type: System.Collections.Generic.IEnumerable{UnityEngine.CustomRenderTexture}
+    content.vb: Function GetCustomRenderTextures As IEnumerable(Of CustomRenderTexture)
+  overload: Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures*
+references:
+- uid: Mixture
+  commentId: N:Mixture
+  name: Mixture
+  nameWithType: Mixture
+  fullName: Mixture
+- uid: Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures*
+  commentId: Overload:Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures
+  name: GetCustomRenderTextures
+  nameWithType: IUseCustomRenderTextureProcessing.GetCustomRenderTextures
+  fullName: Mixture.IUseCustomRenderTextureProcessing.GetCustomRenderTextures
+- uid: System.Collections.Generic.IEnumerable{UnityEngine.CustomRenderTexture}
+  commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.CustomRenderTexture}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<CustomRenderTexture>
+  nameWithType: IEnumerable<CustomRenderTexture>
+  fullName: System.Collections.Generic.IEnumerable<UnityEngine.CustomRenderTexture>
+  nameWithType.vb: IEnumerable(Of CustomRenderTexture)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of UnityEngine.CustomRenderTexture)
+  name.vb: IEnumerable(Of CustomRenderTexture)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.CustomRenderTexture
+    name: CustomRenderTexture
+    nameWithType: CustomRenderTexture
+    fullName: UnityEngine.CustomRenderTexture
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.CustomRenderTexture
+    name: CustomRenderTexture
+    nameWithType: CustomRenderTexture
+    fullName: UnityEngine.CustomRenderTexture
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

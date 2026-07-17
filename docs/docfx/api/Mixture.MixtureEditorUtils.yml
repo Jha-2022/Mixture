@@ -1,0 +1,1142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mixture.MixtureEditorUtils
+  commentId: T:Mixture.MixtureEditorUtils
+  id: MixtureEditorUtils
+  parent: Mixture
+  children:
+  - Mixture.MixtureEditorUtils.bugIcon
+  - Mixture.MixtureEditorUtils.compareIcon
+  - Mixture.MixtureEditorUtils.computeShaderTemplate
+  - Mixture.MixtureEditorUtils.CreateComputeShader(Mixture.MixtureGraph,System.String)
+  - Mixture.MixtureEditorUtils.CreateNewShaderGraph(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  - Mixture.MixtureEditorUtils.CreateNewShaderText(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  - Mixture.MixtureEditorUtils.documentationIcon
+  - Mixture.MixtureEditorUtils.featureRequestIcon
+  - Mixture.MixtureEditorUtils.fitIcon
+  - Mixture.MixtureEditorUtils.GetChannelsMask(Mixture.PreviewChannels)
+  - Mixture.MixtureEditorUtils.GetGraphAtPath(System.String)
+  - Mixture.MixtureEditorUtils.githubIcon
+  - Mixture.MixtureEditorUtils.lockClose
+  - Mixture.MixtureEditorUtils.lockOpen
+  - Mixture.MixtureEditorUtils.mixtureEditorResourcesPath
+  - Mixture.MixtureEditorUtils.pinIcon
+  - Mixture.MixtureEditorUtils.settingsIcon
+  - Mixture.MixtureEditorUtils.shaderGraphTexture2DTemplate
+  - Mixture.MixtureEditorUtils.shaderGraphTexture3DTemplate
+  - Mixture.MixtureEditorUtils.shaderGraphTextureCubeTemplate
+  - Mixture.MixtureEditorUtils.shaderTextTexture2DTemplate
+  - Mixture.MixtureEditorUtils.shaderTextTexture3DTemplate
+  - Mixture.MixtureEditorUtils.shaderTextTextureCubeTemplate
+  - Mixture.MixtureEditorUtils.ToggleMixtureGraphMode(Mixture.MixtureGraph)
+  - Mixture.MixtureEditorUtils.unpinIcon
+  langs:
+  - csharp
+  - vb
+  name: MixtureEditorUtils
+  nameWithType: MixtureEditorUtils
+  fullName: Mixture.MixtureEditorUtils
+  type: Class
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: MixtureEditorUtils
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 7
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static class MixtureEditorUtils
+    content.vb: Public Module MixtureEditorUtils
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mixture.MixtureEditorUtils.mixtureEditorResourcesPath
+  commentId: F:Mixture.MixtureEditorUtils.mixtureEditorResourcesPath
+  id: mixtureEditorResourcesPath
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: mixtureEditorResourcesPath
+  nameWithType: MixtureEditorUtils.mixtureEditorResourcesPath
+  fullName: Mixture.MixtureEditorUtils.mixtureEditorResourcesPath
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: mixtureEditorResourcesPath
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 9
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string mixtureEditorResourcesPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly mixtureEditorResourcesPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.shaderGraphTexture2DTemplate
+  commentId: F:Mixture.MixtureEditorUtils.shaderGraphTexture2DTemplate
+  id: shaderGraphTexture2DTemplate
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: shaderGraphTexture2DTemplate
+  nameWithType: MixtureEditorUtils.shaderGraphTexture2DTemplate
+  fullName: Mixture.MixtureEditorUtils.shaderGraphTexture2DTemplate
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: shaderGraphTexture2DTemplate
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 10
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string shaderGraphTexture2DTemplate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly shaderGraphTexture2DTemplate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.shaderGraphTexture3DTemplate
+  commentId: F:Mixture.MixtureEditorUtils.shaderGraphTexture3DTemplate
+  id: shaderGraphTexture3DTemplate
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: shaderGraphTexture3DTemplate
+  nameWithType: MixtureEditorUtils.shaderGraphTexture3DTemplate
+  fullName: Mixture.MixtureEditorUtils.shaderGraphTexture3DTemplate
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: shaderGraphTexture3DTemplate
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 11
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string shaderGraphTexture3DTemplate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly shaderGraphTexture3DTemplate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.shaderGraphTextureCubeTemplate
+  commentId: F:Mixture.MixtureEditorUtils.shaderGraphTextureCubeTemplate
+  id: shaderGraphTextureCubeTemplate
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: shaderGraphTextureCubeTemplate
+  nameWithType: MixtureEditorUtils.shaderGraphTextureCubeTemplate
+  fullName: Mixture.MixtureEditorUtils.shaderGraphTextureCubeTemplate
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: shaderGraphTextureCubeTemplate
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 12
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string shaderGraphTextureCubeTemplate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly shaderGraphTextureCubeTemplate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.shaderTextTexture2DTemplate
+  commentId: F:Mixture.MixtureEditorUtils.shaderTextTexture2DTemplate
+  id: shaderTextTexture2DTemplate
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: shaderTextTexture2DTemplate
+  nameWithType: MixtureEditorUtils.shaderTextTexture2DTemplate
+  fullName: Mixture.MixtureEditorUtils.shaderTextTexture2DTemplate
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: shaderTextTexture2DTemplate
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 13
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string shaderTextTexture2DTemplate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly shaderTextTexture2DTemplate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.shaderTextTexture3DTemplate
+  commentId: F:Mixture.MixtureEditorUtils.shaderTextTexture3DTemplate
+  id: shaderTextTexture3DTemplate
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: shaderTextTexture3DTemplate
+  nameWithType: MixtureEditorUtils.shaderTextTexture3DTemplate
+  fullName: Mixture.MixtureEditorUtils.shaderTextTexture3DTemplate
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: shaderTextTexture3DTemplate
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 14
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string shaderTextTexture3DTemplate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly shaderTextTexture3DTemplate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.shaderTextTextureCubeTemplate
+  commentId: F:Mixture.MixtureEditorUtils.shaderTextTextureCubeTemplate
+  id: shaderTextTextureCubeTemplate
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: shaderTextTextureCubeTemplate
+  nameWithType: MixtureEditorUtils.shaderTextTextureCubeTemplate
+  fullName: Mixture.MixtureEditorUtils.shaderTextTextureCubeTemplate
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: shaderTextTextureCubeTemplate
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 15
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string shaderTextTextureCubeTemplate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly shaderTextTextureCubeTemplate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.computeShaderTemplate
+  commentId: F:Mixture.MixtureEditorUtils.computeShaderTemplate
+  id: computeShaderTemplate
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: computeShaderTemplate
+  nameWithType: MixtureEditorUtils.computeShaderTemplate
+  fullName: Mixture.MixtureEditorUtils.computeShaderTemplate
+  type: Field
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: computeShaderTemplate
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 16
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static readonly string computeShaderTemplate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly computeShaderTemplate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.CreateNewShaderGraph(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  commentId: M:Mixture.MixtureEditorUtils.CreateNewShaderGraph(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  id: CreateNewShaderGraph(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: CreateNewShaderGraph(MixtureGraph, String, OutputDimension)
+  nameWithType: MixtureEditorUtils.CreateNewShaderGraph(MixtureGraph, String, OutputDimension)
+  fullName: Mixture.MixtureEditorUtils.CreateNewShaderGraph(Mixture.MixtureGraph, System.String, Mixture.OutputDimension)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: CreateNewShaderGraph
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 65
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Shader CreateNewShaderGraph(MixtureGraph graph, string name, OutputDimension dimension)
+    parameters:
+    - id: graph
+      type: Mixture.MixtureGraph
+    - id: name
+      type: System.String
+    - id: dimension
+      type: Mixture.OutputDimension
+    return:
+      type: UnityEngine.Shader
+    content.vb: Public Shared Function CreateNewShaderGraph(graph As MixtureGraph, name As String, dimension As OutputDimension) As Shader
+  overload: Mixture.MixtureEditorUtils.CreateNewShaderGraph*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mixture.MixtureEditorUtils.CreateNewShaderText(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  commentId: M:Mixture.MixtureEditorUtils.CreateNewShaderText(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  id: CreateNewShaderText(Mixture.MixtureGraph,System.String,Mixture.OutputDimension)
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: CreateNewShaderText(MixtureGraph, String, OutputDimension)
+  nameWithType: MixtureEditorUtils.CreateNewShaderText(MixtureGraph, String, OutputDimension)
+  fullName: Mixture.MixtureEditorUtils.CreateNewShaderText(Mixture.MixtureGraph, System.String, Mixture.OutputDimension)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: CreateNewShaderText
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 83
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Shader CreateNewShaderText(MixtureGraph graph, string name, OutputDimension dimension)
+    parameters:
+    - id: graph
+      type: Mixture.MixtureGraph
+    - id: name
+      type: System.String
+    - id: dimension
+      type: Mixture.OutputDimension
+    return:
+      type: UnityEngine.Shader
+    content.vb: Public Shared Function CreateNewShaderText(graph As MixtureGraph, name As String, dimension As OutputDimension) As Shader
+  overload: Mixture.MixtureEditorUtils.CreateNewShaderText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mixture.MixtureEditorUtils.CreateComputeShader(Mixture.MixtureGraph,System.String)
+  commentId: M:Mixture.MixtureEditorUtils.CreateComputeShader(Mixture.MixtureGraph,System.String)
+  id: CreateComputeShader(Mixture.MixtureGraph,System.String)
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: CreateComputeShader(MixtureGraph, String)
+  nameWithType: MixtureEditorUtils.CreateComputeShader(MixtureGraph, String)
+  fullName: Mixture.MixtureEditorUtils.CreateComputeShader(Mixture.MixtureGraph, System.String)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: CreateComputeShader
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 100
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static ComputeShader CreateComputeShader(MixtureGraph graph, string name)
+    parameters:
+    - id: graph
+      type: Mixture.MixtureGraph
+    - id: name
+      type: System.String
+    return:
+      type: UnityEngine.ComputeShader
+    content.vb: Public Shared Function CreateComputeShader(graph As MixtureGraph, name As String) As ComputeShader
+  overload: Mixture.MixtureEditorUtils.CreateComputeShader*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mixture.MixtureEditorUtils.ToggleMixtureGraphMode(Mixture.MixtureGraph)
+  commentId: M:Mixture.MixtureEditorUtils.ToggleMixtureGraphMode(Mixture.MixtureGraph)
+  id: ToggleMixtureGraphMode(Mixture.MixtureGraph)
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: ToggleMixtureGraphMode(MixtureGraph)
+  nameWithType: MixtureEditorUtils.ToggleMixtureGraphMode(MixtureGraph)
+  fullName: Mixture.MixtureEditorUtils.ToggleMixtureGraphMode(Mixture.MixtureGraph)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: ToggleMixtureGraphMode
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 106
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static void ToggleMixtureGraphMode(MixtureGraph mixture)
+    parameters:
+    - id: mixture
+      type: Mixture.MixtureGraph
+    content.vb: Public Shared Sub ToggleMixtureGraphMode(mixture As MixtureGraph)
+  overload: Mixture.MixtureEditorUtils.ToggleMixtureGraphMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mixture.MixtureEditorUtils.GetGraphAtPath(System.String)
+  commentId: M:Mixture.MixtureEditorUtils.GetGraphAtPath(System.String)
+  id: GetGraphAtPath(System.String)
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: GetGraphAtPath(String)
+  nameWithType: MixtureEditorUtils.GetGraphAtPath(String)
+  fullName: Mixture.MixtureEditorUtils.GetGraphAtPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: GetGraphAtPath
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 117
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static MixtureGraph GetGraphAtPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: Mixture.MixtureGraph
+    content.vb: Public Shared Function GetGraphAtPath(path As String) As MixtureGraph
+  overload: Mixture.MixtureEditorUtils.GetGraphAtPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mixture.MixtureEditorUtils.bugIcon
+  commentId: P:Mixture.MixtureEditorUtils.bugIcon
+  id: bugIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: bugIcon
+  nameWithType: MixtureEditorUtils.bugIcon
+  fullName: Mixture.MixtureEditorUtils.bugIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: bugIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 136
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D bugIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property bugIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.bugIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.pinIcon
+  commentId: P:Mixture.MixtureEditorUtils.pinIcon
+  id: pinIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: pinIcon
+  nameWithType: MixtureEditorUtils.pinIcon
+  fullName: Mixture.MixtureEditorUtils.pinIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: pinIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 142
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D pinIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property pinIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.pinIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.unpinIcon
+  commentId: P:Mixture.MixtureEditorUtils.unpinIcon
+  id: unpinIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: unpinIcon
+  nameWithType: MixtureEditorUtils.unpinIcon
+  fullName: Mixture.MixtureEditorUtils.unpinIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: unpinIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 148
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D unpinIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property unpinIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.unpinIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.compareIcon
+  commentId: P:Mixture.MixtureEditorUtils.compareIcon
+  id: compareIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: compareIcon
+  nameWithType: MixtureEditorUtils.compareIcon
+  fullName: Mixture.MixtureEditorUtils.compareIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: compareIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 154
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D compareIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property compareIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.compareIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.fitIcon
+  commentId: P:Mixture.MixtureEditorUtils.fitIcon
+  id: fitIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: fitIcon
+  nameWithType: MixtureEditorUtils.fitIcon
+  fullName: Mixture.MixtureEditorUtils.fitIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: fitIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 160
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D fitIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property fitIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.fitIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.githubIcon
+  commentId: P:Mixture.MixtureEditorUtils.githubIcon
+  id: githubIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: githubIcon
+  nameWithType: MixtureEditorUtils.githubIcon
+  fullName: Mixture.MixtureEditorUtils.githubIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: githubIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 166
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D githubIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property githubIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.githubIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.featureRequestIcon
+  commentId: P:Mixture.MixtureEditorUtils.featureRequestIcon
+  id: featureRequestIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: featureRequestIcon
+  nameWithType: MixtureEditorUtils.featureRequestIcon
+  fullName: Mixture.MixtureEditorUtils.featureRequestIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: featureRequestIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 172
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D featureRequestIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property featureRequestIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.featureRequestIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.documentationIcon
+  commentId: P:Mixture.MixtureEditorUtils.documentationIcon
+  id: documentationIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: documentationIcon
+  nameWithType: MixtureEditorUtils.documentationIcon
+  fullName: Mixture.MixtureEditorUtils.documentationIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: documentationIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 178
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D documentationIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property documentationIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.documentationIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.lockOpen
+  commentId: P:Mixture.MixtureEditorUtils.lockOpen
+  id: lockOpen
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: lockOpen
+  nameWithType: MixtureEditorUtils.lockOpen
+  fullName: Mixture.MixtureEditorUtils.lockOpen
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: lockOpen
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 184
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D lockOpen { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property lockOpen As Texture2D
+  overload: Mixture.MixtureEditorUtils.lockOpen*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.lockClose
+  commentId: P:Mixture.MixtureEditorUtils.lockClose
+  id: lockClose
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: lockClose
+  nameWithType: MixtureEditorUtils.lockClose
+  fullName: Mixture.MixtureEditorUtils.lockClose
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: lockClose
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 190
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D lockClose { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property lockClose As Texture2D
+  overload: Mixture.MixtureEditorUtils.lockClose*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.settingsIcon
+  commentId: P:Mixture.MixtureEditorUtils.settingsIcon
+  id: settingsIcon
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: settingsIcon
+  nameWithType: MixtureEditorUtils.settingsIcon
+  fullName: Mixture.MixtureEditorUtils.settingsIcon
+  type: Property
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: settingsIcon
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 196
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Texture2D settingsIcon { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public Shared ReadOnly Property settingsIcon As Texture2D
+  overload: Mixture.MixtureEditorUtils.settingsIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mixture.MixtureEditorUtils.GetChannelsMask(Mixture.PreviewChannels)
+  commentId: M:Mixture.MixtureEditorUtils.GetChannelsMask(Mixture.PreviewChannels)
+  id: GetChannelsMask(Mixture.PreviewChannels)
+  parent: Mixture.MixtureEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: GetChannelsMask(PreviewChannels)
+  nameWithType: MixtureEditorUtils.GetChannelsMask(PreviewChannels)
+  fullName: Mixture.MixtureEditorUtils.GetChannelsMask(Mixture.PreviewChannels)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+      branch: master
+      repo: git@github.com:alelievr/Mixture.git
+    id: GetChannelsMask
+    path: ../../Packages/com.alelievr.mixture/Editor/Utils/MixtureEditorUtils.cs
+    startLine: 201
+  assemblies:
+  - Unity.ShaderGraph.GraphicsTests
+  namespace: Mixture
+  syntax:
+    content: public static Vector4 GetChannelsMask(PreviewChannels channels)
+    parameters:
+    - id: channels
+      type: Mixture.PreviewChannels
+    return:
+      type: UnityEngine.Vector4
+    content.vb: Public Shared Function GetChannelsMask(channels As PreviewChannels) As Vector4
+  overload: Mixture.MixtureEditorUtils.GetChannelsMask*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mixture
+  commentId: N:Mixture
+  name: Mixture
+  nameWithType: Mixture
+  fullName: Mixture
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mixture.MixtureEditorUtils.CreateNewShaderGraph*
+  commentId: Overload:Mixture.MixtureEditorUtils.CreateNewShaderGraph
+  name: CreateNewShaderGraph
+  nameWithType: MixtureEditorUtils.CreateNewShaderGraph
+  fullName: Mixture.MixtureEditorUtils.CreateNewShaderGraph
+- uid: Mixture.MixtureGraph
+  commentId: T:Mixture.MixtureGraph
+  parent: Mixture
+  name: MixtureGraph
+  nameWithType: MixtureGraph
+  fullName: Mixture.MixtureGraph
+- uid: Mixture.OutputDimension
+  commentId: T:Mixture.OutputDimension
+  parent: Mixture
+  name: OutputDimension
+  nameWithType: OutputDimension
+  fullName: Mixture.OutputDimension
+- uid: UnityEngine.Shader
+  commentId: T:UnityEngine.Shader
+  parent: UnityEngine
+  isExternal: true
+  name: Shader
+  nameWithType: Shader
+  fullName: UnityEngine.Shader
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Mixture.MixtureEditorUtils.CreateNewShaderText*
+  commentId: Overload:Mixture.MixtureEditorUtils.CreateNewShaderText
+  name: CreateNewShaderText
+  nameWithType: MixtureEditorUtils.CreateNewShaderText
+  fullName: Mixture.MixtureEditorUtils.CreateNewShaderText
+- uid: Mixture.MixtureEditorUtils.CreateComputeShader*
+  commentId: Overload:Mixture.MixtureEditorUtils.CreateComputeShader
+  name: CreateComputeShader
+  nameWithType: MixtureEditorUtils.CreateComputeShader
+  fullName: Mixture.MixtureEditorUtils.CreateComputeShader
+- uid: UnityEngine.ComputeShader
+  commentId: T:UnityEngine.ComputeShader
+  parent: UnityEngine
+  isExternal: true
+  name: ComputeShader
+  nameWithType: ComputeShader
+  fullName: UnityEngine.ComputeShader
+- uid: Mixture.MixtureEditorUtils.ToggleMixtureGraphMode*
+  commentId: Overload:Mixture.MixtureEditorUtils.ToggleMixtureGraphMode
+  name: ToggleMixtureGraphMode
+  nameWithType: MixtureEditorUtils.ToggleMixtureGraphMode
+  fullName: Mixture.MixtureEditorUtils.ToggleMixtureGraphMode
+- uid: Mixture.MixtureEditorUtils.GetGraphAtPath*
+  commentId: Overload:Mixture.MixtureEditorUtils.GetGraphAtPath
+  name: GetGraphAtPath
+  nameWithType: MixtureEditorUtils.GetGraphAtPath
+  fullName: Mixture.MixtureEditorUtils.GetGraphAtPath
+- uid: Mixture.MixtureEditorUtils.bugIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.bugIcon
+  name: bugIcon
+  nameWithType: MixtureEditorUtils.bugIcon
+  fullName: Mixture.MixtureEditorUtils.bugIcon
+- uid: UnityEngine.Texture2D
+  commentId: T:UnityEngine.Texture2D
+  parent: UnityEngine
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: UnityEngine.Texture2D
+- uid: Mixture.MixtureEditorUtils.pinIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.pinIcon
+  name: pinIcon
+  nameWithType: MixtureEditorUtils.pinIcon
+  fullName: Mixture.MixtureEditorUtils.pinIcon
+- uid: Mixture.MixtureEditorUtils.unpinIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.unpinIcon
+  name: unpinIcon
+  nameWithType: MixtureEditorUtils.unpinIcon
+  fullName: Mixture.MixtureEditorUtils.unpinIcon
+- uid: Mixture.MixtureEditorUtils.compareIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.compareIcon
+  name: compareIcon
+  nameWithType: MixtureEditorUtils.compareIcon
+  fullName: Mixture.MixtureEditorUtils.compareIcon
+- uid: Mixture.MixtureEditorUtils.fitIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.fitIcon
+  name: fitIcon
+  nameWithType: MixtureEditorUtils.fitIcon
+  fullName: Mixture.MixtureEditorUtils.fitIcon
+- uid: Mixture.MixtureEditorUtils.githubIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.githubIcon
+  name: githubIcon
+  nameWithType: MixtureEditorUtils.githubIcon
+  fullName: Mixture.MixtureEditorUtils.githubIcon
+- uid: Mixture.MixtureEditorUtils.featureRequestIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.featureRequestIcon
+  name: featureRequestIcon
+  nameWithType: MixtureEditorUtils.featureRequestIcon
+  fullName: Mixture.MixtureEditorUtils.featureRequestIcon
+- uid: Mixture.MixtureEditorUtils.documentationIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.documentationIcon
+  name: documentationIcon
+  nameWithType: MixtureEditorUtils.documentationIcon
+  fullName: Mixture.MixtureEditorUtils.documentationIcon
+- uid: Mixture.MixtureEditorUtils.lockOpen*
+  commentId: Overload:Mixture.MixtureEditorUtils.lockOpen
+  name: lockOpen
+  nameWithType: MixtureEditorUtils.lockOpen
+  fullName: Mixture.MixtureEditorUtils.lockOpen
+- uid: Mixture.MixtureEditorUtils.lockClose*
+  commentId: Overload:Mixture.MixtureEditorUtils.lockClose
+  name: lockClose
+  nameWithType: MixtureEditorUtils.lockClose
+  fullName: Mixture.MixtureEditorUtils.lockClose
+- uid: Mixture.MixtureEditorUtils.settingsIcon*
+  commentId: Overload:Mixture.MixtureEditorUtils.settingsIcon
+  name: settingsIcon
+  nameWithType: MixtureEditorUtils.settingsIcon
+  fullName: Mixture.MixtureEditorUtils.settingsIcon
+- uid: Mixture.MixtureEditorUtils.GetChannelsMask*
+  commentId: Overload:Mixture.MixtureEditorUtils.GetChannelsMask
+  name: GetChannelsMask
+  nameWithType: MixtureEditorUtils.GetChannelsMask
+  fullName: Mixture.MixtureEditorUtils.GetChannelsMask
+- uid: Mixture.PreviewChannels
+  commentId: T:Mixture.PreviewChannels
+  parent: Mixture
+  name: PreviewChannels
+  nameWithType: PreviewChannels
+  fullName: Mixture.PreviewChannels
+- uid: UnityEngine.Vector4
+  commentId: T:UnityEngine.Vector4
+  parent: UnityEngine
+  isExternal: true
+  name: Vector4
+  nameWithType: Vector4
+  fullName: UnityEngine.Vector4
